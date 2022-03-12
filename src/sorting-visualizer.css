@@ -15,3 +15,24 @@ body {
   display: inline-block;
   margin: 0 1px;
 }
+
+button {
+  margin: 3px 10px;
+  padding: 5px 10px;
+  background: blanchedalmond;
+  transition: 0.2s ease-in;
+  border: 1px solid brown;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.generate-btn:hover {
+  background: darkslateblue;
+}
+.merge-btn:hover {
+  background: dodgerblue;
+}

@@ -57,8 +57,12 @@ const SortingVisualizer = () => {
     <>
       <header className="header">
         <h1>Sorting Visualizer</h1>
-        <button onClick={() => generateNewArray()}>Generate New Array</button>
-        <button onClick={() => mergeSort()}>Merge Sort</button>
+        <button onClick={() => generateNewArray()} className="generate-btn">
+          Generate New Array
+        </button>
+        <button onClick={() => mergeSort()} className="merge-btn">
+          Merge Sort
+        </button>
       </header>
       <main className="array-container" style={{ height: MAX_RANDOM_NUMBER }}>
         {array.map((value, idx) => (
