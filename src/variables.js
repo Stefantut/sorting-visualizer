@@ -9,3 +9,9 @@ export const MAX_RANDOM_NUMBER = 600;
 
 // The main color of the array bars.
 export const PRIMARY_COLOR = "indianred";
+
+// The color of array bars that are being compared throughout the animations.
+export const SECONDARY_COLOR = "yellow";
+
+// Value for the speed of the animations in milliseconds.
+export const ANIMATION_SPEED = 1;
