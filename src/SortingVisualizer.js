@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./sorting-visualizer.css";
 
 import { randomIntFromInterval } from "./helpers";
@@ -10,10 +10,15 @@ const SortingVisualizer = () => {
   const generateNewArray = () => {
     const array = [];
     for (let i = 0; i < ARRAY_BARS; i++) {
-      array.push(randomIntFromInterval(5, 730));
+      array.push(randomIntFromInterval(3, 999));
     }
     setArray(array);
   };
+
+  useEffect(() => {
+    // generates random array on load
+    generateNewArray();
+  }, []);
 
   console.log(array);
 
