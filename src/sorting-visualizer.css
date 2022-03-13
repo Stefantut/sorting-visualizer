@@ -1,3 +1,7 @@
+header {
+  margin-top: 15px;
+}
+
 body {
   text-align: center;
 }
@@ -11,9 +15,15 @@ body {
 }
 
 .array-bar {
-  width: 3px;
+  width: 14px;
   display: inline-block;
   margin: 0 1px;
+}
+
+.array-bar span {
+  writing-mode: vertical-lr;
+  font-size: 10px;
+  color: white;
 }
 
 button {
