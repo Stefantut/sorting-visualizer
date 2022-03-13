@@ -2,7 +2,11 @@
 
 # Web application built with React using React Hooks.
 
+View live: <https://sorting-visualizer.stefantut.dev/>
+
 ![Preview Image](src/sorting-visualizer-preview.png)
+
+Sorting algorithms are used to sort a data structure according to a specific order relationship, such as numerical order or lexicographical order.
 
 # Getting Started with Create React App
 
