@@ -2,7 +2,7 @@
 
 # Web application built with React using React Hooks.
 
-%md <a href="https://sorting-visualizer.stefantut.dev" target="_blank">View app live</a>
+View live: <https://sorting-visualizer.stefantut.dev">
 
 ![Preview Image](src/sorting-visualizer-preview.png)
 
