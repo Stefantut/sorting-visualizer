@@ -47,7 +47,9 @@ const SortingVisualizer = () => {
         setTimeout(() => {
           const [barOneIdx, newHeight] = animations[i];
           const barOneStyle = arrayBars[barOneIdx].style;
+          const barOne = arrayBars[barOneIdx];
           barOneStyle.height = `${newHeight}px`;
+          barOne.textContent = newHeight;
         }, i * ANIMATION_SPEED);
       }
     }
@@ -73,7 +75,9 @@ const SortingVisualizer = () => {
               backgroundColor: PRIMARY_COLOR,
               height: `${value}px`,
             }}
-          />
+          >
+            {value}
+          </div>
         ))}
       </main>
     </>
